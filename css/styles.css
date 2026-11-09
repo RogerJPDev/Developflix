@@ -1,4 +1,5 @@
 /* styles.css */
+/* styles.css */
 body {
   font-family: Arial, sans-serif;
 }
@@ -13,6 +14,30 @@ body {
 h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
+}
+
+/* Linea para las peliculas */
+.genero {
+  display: flex;
+  flex-wrap: wrap;   /* las fichas se mueven si no caben */
+  gap: 20px;         /* espacio entre las fichas*/
+}
+
+/* One movie */
+.pelicula {
+  width: 160px;
+}
+
+.pelicula img {
+  width: 100%;       /* rellena la ficha a 160px */
+  height: auto;      /* mantiene la proporcion */
+  border-radius: 8px;
+  display: block;
+}
+
+.pelicula h3 {
+  font-size: 0.95rem;
+  margin: 8px 0 0;
 }
 
 
